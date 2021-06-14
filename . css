@@ -1,0 +1,89 @@
+body {
+    padding:0;
+    margin:0;
+    background-color:#991;
+}
+button{
+    position:relative ;
+    top:300px;
+    left:35%;
+    background-color:#991;
+    width:100px;
+    height:50px;
+    font-size:20px;
+    font-family:serif;
+    font-weight:bold;
+    border:none;
+    border-radius:20px;
+    box-shadow:2px 2px 5px black,-2px -2px 5px;
+
+}
+#ghadi{
+    position:absolute;
+    left:19%;
+    margin-top:220px;
+    font-size:40px;
+    font-family:serif;
+    text-shadow:2px -2px 3px black;
+    animation:dynamic 6s infinite ;
+    
+}
+@keyframes dynamic{
+    0%{color:#fff;}
+    10%{color:#333;}
+    20%{color:red;}
+    30%{color:blue;}
+    40%{color:orange;}
+    50%{color:#fff;}
+    60%{color:#333;}
+    70%{color:red;}
+    80%{color:blue;}
+    90{color:orange;}
+    100%{color:blue;}
+}
+.line{
+    width:90px;
+    height:5px;
+    background-color:red;
+    position:relative;
+    left:40%;
+    margin-top:80px;
+    border-radius:50px;
+    animation:hour 30s infinite;
+    box-shadow:9px 2px 2px black;
+}
+@keyframes hour{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+.minute{
+    width:90px;
+    height:5px;
+    background-color:#fff;
+    position:relative;
+    left:40%;
+    margin-top:-5px;
+    border-radius:50px;
+    animation:ghada 10s  linear infinite;
+    box-shadow:9px 2px 2px black;
+    }
+@keyframes ghada{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+.second{ width:40px;
+    height:5px;
+    background-color:black;
+    position:relative;
+    left:40%;
+    transform:rotate(-90deg);
+    margin-top:-5px;
+    border-radius:50px;
+    animation:ghada 1000s  linear infinite;
+    
+    }
+@keyframes ghada{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+    
+}
